@@ -1,6 +1,6 @@
 # socket-MPI
 
-#一，measure throughput between client and server. 使用socket 和 MPI4py.
+# 一，measure throughput between client and server. 使用socket 和 MPI4py.
 ## 遇到的问题：
 ### 1，指定传送的size, 解决方法：使用BUFSIZE = 1024， 然后 test_data = 'x' * (BUFSIZE - 1) + '\n'（相当于发送1024个X）
 ### 2，num 局部变量，全局变量， 解决方法： 使用 global num

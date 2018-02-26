@@ -7,6 +7,6 @@
 ### 3， 如何循环一个函数 ， 解决方法：见代码
 ### 4， 如何将循环的这么多数据存储，  解决方法： 现在外面定义一个nums=[]数组来存储，然后在函数里面使用， nums.append(num)  具体见代码.
 ### 5,  如何计算时间：time ,timeit
-### 6,  
+### 6,  float 不能迭代 解决方法：https://stackoverflow.com/questions/25287584/typeerror-float-object-is-not-iterable-3 具体见代码
 
 
